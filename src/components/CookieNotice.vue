@@ -16,7 +16,7 @@
 <template lang="pug">
   #cookieNotice(v-show="showBanner" v-on:click="clickHandler")
     slot {{ message }}
-    a(href="#" v-on:click="clickHandler") {{ OK }}
+    a(href="#" v-on:click="clickHandler" class="button") {{ OK }}
 </template>
 
 <!-- <script src="./script.js"></script> -->
@@ -74,5 +74,18 @@ export default {
   z-index  9999999
   border   1px solid #aaa
   opacity  0.8
+  text-align center
+.button
+  color    #fff
+  padding  5px
+  padding-top 6px
+  padding-bottom 0px
+  border   1px solid #00b300
+  border-radius 5px
+  background-color #00b300
+  text-decoration none
+  vertical-align bottom
+  text-align center
+  line-height 16px
 </style>
 

@@ -4,7 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <!-- CookieNotice can include a custom message -->
     <CookieNotice cookieName="mytest">
-      This is the EU Cookie Notice. Click if you agree.
+      This is the Cookie Notice. We use Cookies on this website. Click if you agree ->>&nbsp;
     </CookieNotice>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #5c3e50;
   margin-top: 60px;
 }
 </style>
