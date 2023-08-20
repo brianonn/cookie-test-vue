@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <img src="./assets/uu.png">
+    <HelloWorld msg="1198219 B.C. LTD. -- Coming Soon." />
     <!-- CookieNotice can include a custom message -->
     <CookieNotice cookieName="mytest">
       This is the Cookie Notice. We use Cookies on this website. Click if you agree ->>&nbsp;
@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import CookieNotice from './components/CookieNotice.vue'
+    import HelloWorld from './components/HelloWorld.vue'
+    import CookieNotice from './components/CookieNotice.vue'
 
 export default {
   name: 'app',
